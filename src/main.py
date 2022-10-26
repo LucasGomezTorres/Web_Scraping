@@ -7,9 +7,9 @@ Authors:
 """
 
 def main():
-    print("1. Extracción de genéros de la URL: https://www.imdb.com/feature/genre/?ref_=nv_ch_gr")
-    print("2. Extracción de información de las películas de cada género")
-    print("3. Extracción de la información de una película")
-    
+    print("1. URL genre extraction: https://www.imdb.com/feature/genre/?ref_=nv_ch_gr")
+    print("2. Extraction of information from movies of each genre")
+    print("3. Extraction of information from a movie")
+
 if __name__ == "__main__":
     main()
