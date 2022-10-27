@@ -1,17 +1,26 @@
 """
-Description:
-
+Description: This file contains the logic necessary to extract 
+            information from the movies that make up a movie genre. 
 
 Authors: 
     Lucas Gómez, Joan Amengual
 """
 
 import requests
-import os
-import urllib.parse
 from bs4 import BeautifulSoup
 
-def extract_info(genre_url):
+def genre_movies_extraction(genre_name, genre_url):
+    """
+    Function that allows you to extract information from movie cards, such as: 
+    identifier, title, duration, rating, description, actors, etc.
+
+    Inputs:
+        - genre_name: Name identifying the genre of the movies
+        - genre_url: URL to access the page where to extract information
+    """
+
+    # Data structure to store all the information
+    genre_movies = {}
 
     # Get all the text of the page identified by the input URL
     response = requests.get(genre_url)
@@ -24,34 +33,50 @@ def extract_info(genre_url):
     for movie_info in all_movies:
 
         # Get movie title
-        movie_title = movie_info.find_all("h3")
-        print(movie_title[0].get_text())
+        raw_movie_title = movie_info.find_all("h3")
+        if raw_movie_title!= None:
+            movie_title = raw_movie_title[0].get_text().replace("\n", "")
+            movie_id = int(movie_title.split('.')[0])
 
         # Get movie duration
-        movie_duration = movie_info.find("span", {"class": "runtime"})
-        print(movie_duration.get_text())
+        raw_movie_duration = movie_info.find("span", {"class": "runtime"})
+        if raw_movie_duration!= None:
+            movie_duration = raw_movie_duration.get_text().replace("\n", "")
 
         # Get movie rating
-        movie_rating = movie_info.find("div", {"class": "inline-block ratings-imdb-rating"})
-        print(movie_rating.get_text())
+        raw_movie_rating = movie_info.find("div", {"class": "inline-block ratings-imdb-rating"})
+        if raw_movie_rating!= None:
+            movie_rating = raw_movie_rating.get_text().replace("\n", "")
 
         # Get movie description
-        movie_description = movie_info.find_all("p", {"class": "text-muted"})
-        print(movie_description[-1].get_text())
+        raw_movie_description = movie_info.find_all("p", {"class": "text-muted"})
+        if raw_movie_description!= None:
+            movie_description = raw_movie_description[-1].get_text().replace("\n", "")
 
         # Get movie stars
-        movie_stars = movie_info.find("p", {"class": ""})
-        print(movie_stars.get_text())
+        raw_movie_stars = movie_info.find("p", {"class": ""})
+        if raw_movie_stars!= None:
+            movie_stars = raw_movie_stars.get_text().replace("\n", "").split('Stars:')[1]
 
         # Get the movie votes
-        movie_votes = movie_info.find("span", {"name": "nv"})
-        print(movie_votes.get_text())
+        raw_movie_votes = movie_info.find("span", {"name": "nv"})
+        if raw_movie_votes!= None:
+            movie_votes = raw_movie_votes.get_text().replace("\n", "")
 
-        # TODO: Remove this brake to enable routing for all movies when the operations are ready 
-        break
+        # Storage of information in the data structure
+        genre_movies[f"{genre_name}_movie_{movie_id}"] = {
+            'Movie Title': movie_title,
+            'Movie Duration': movie_duration,
+            'Movie Rating': movie_rating,
+            'Movie Description': movie_description,
+            'Movie Starts': movie_stars,
+            'Movie Votes': movie_votes
+            }
+
+    return genre_movies
 
 if __name__ == "__main__":
     # Starting URL to get the information of the movies
+    genre_name = 'comedy'
     genre_url = "https://www.imdb.com/search/title/?genres=comedy&explore=title_type,genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3396781f-d87f-4fac-8694-c56ce6f490fe&pf_rd_r=MCMWMC4F4V3YRQFB7292&pf_rd_s=center-1&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_pr1_i_1"
-
-    extract_info(genre_url)
+    genre_movies_extraction(genre_name, genre_url)
