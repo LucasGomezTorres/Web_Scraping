@@ -7,7 +7,6 @@ Authors:
 """
 
 from genre_movies import genre_movies_extraction
-
 from genres_extraction import genres_names_urls_extraction
 
 def main():
@@ -30,17 +29,17 @@ def main():
     genres_url = "https://www.imdb.com/feature/genre"
 
     print("Genres:" + str(genres_names_urls_extraction(genres_url,headers)))
+    genres = genres_names_urls_extraction(genres_url,headers)
     print("\n")
 
     print("2. Extraction of information from movies of each genre")
     print("\n")
-    genre_name = 'comedy'
-    genre_url = "https://www.imdb.com/search/title/?genres=comedy&explore=title_type,genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3396781f-d87f-4fac-8694-c56ce6f490fe&pf_rd_r=MCMWMC4F4V3YRQFB7292&pf_rd_s=center-1&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_pr1_i_1"
-    print(genre_movies_extraction(genre_name, genre_url))
+    for genre_name in list(genres.keys()):
+        print("\n >>>>>>> Genre: " +genre_name+ " <<<<<<< \n" )
+        genre_url = genres[genre_name] 
+        print(f"{genre_name} movies:" + str(genre_movies_extraction(genre_name, genre_url, headers)))
 
-    print("\n")
     print("3. Extraction of information from a movie")
-
 
 if __name__ == "__main__":
     main()
