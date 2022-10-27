@@ -9,7 +9,7 @@ Authors:
 import requests
 from bs4 import BeautifulSoup
 
-def genres_names_urls_extraction(genres_url):
+def genres_names_urls_extraction(genres_url,headers):
 
     """
     Function that allows you to extract the names and urls from the movie genres.
@@ -19,7 +19,7 @@ def genres_names_urls_extraction(genres_url):
     """
 
     # Get all the text of the page identified by the input URL
-    response = requests.get(genres_url)
+    response = requests.get(genres_url,headers=headers)
     soup = BeautifulSoup(response.text,"html.parser")
 
     # Get all the text of the page identified by the input URL
@@ -31,4 +31,7 @@ def genres_names_urls_extraction(genres_url):
     # Get the names of the genres of the films
     names_genres = [x.get('alt') for genre in genres  for x in genre.findChildren('img')]
 
-    return names_genres,urls_genres
+    # Create the dict_genres
+    dict_genres = {names_genres[i]: urls_genres[i] for i in range(len(names_genres))}
+
+    return dict_genres
