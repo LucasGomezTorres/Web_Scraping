@@ -74,9 +74,3 @@ def genre_movies_extraction(genre_name, genre_url):
             }
 
     return genre_movies
-
-if __name__ == "__main__":
-    # Starting URL to get the information of the movies
-    genre_name = 'comedy'
-    genre_url = "https://www.imdb.com/search/title/?genres=comedy&explore=title_type,genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3396781f-d87f-4fac-8694-c56ce6f490fe&pf_rd_r=MCMWMC4F4V3YRQFB7292&pf_rd_s=center-1&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_pr1_i_1"
-    genre_movies_extraction(genre_name, genre_url)
