@@ -24,7 +24,7 @@ def genre_movies_extraction(genre_name, genre_url):
 
     # Get all the text of the page identified by the input URL
     response = requests.get(genre_url)
-    soup = BeautifulSoup(response.text, features="lxml")
+    soup = BeautifulSoup(response.text, features="html.parser")
 
     # Get all movies
     all_movies = soup.find_all("div", {"class": "lister-item-content"})
