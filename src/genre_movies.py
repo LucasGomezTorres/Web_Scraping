@@ -69,7 +69,7 @@ def genre_movies_extraction(genre_name, genre_url):
             'Movie Duration': movie_duration,
             'Movie Rating': movie_rating,
             'Movie Description': movie_description,
-            'Movie Starts': movie_stars,
+            'Movie Stars': movie_stars,
             'Movie Votes': movie_votes
             }
 
