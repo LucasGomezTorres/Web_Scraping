@@ -1,6 +1,6 @@
 """
-Description: This file contains the logic necessary to extract 
-            information from the names and urls of the movie genres. 
+Description: This file contains the logic necessary to download 
+            the imageo of the movies. 
 
 Authors: 
     Lucas Gómez, Joan Amengual
@@ -24,52 +24,46 @@ from selenium.webdriver.common.by import By
 from tqdm import tqdm
 from urllib.parse import urlparse
 
-if __name__ == "__main__":
-    print("hola")
-    print(os.getcwd())
-    url_comedia = 'https://www.imdb.com/search/title?genres=comedy&explore=title_type,genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3396781f-d87f-4fac-8694-c56ce6f490fe&pf_rd_r=NK3CZ9827P3B9WEDPFZN&pf_rd_s=center-1&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_pr1_i_1'
-   
-    headers = {
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,\
-            */*;q=0.8",
-            "Accept-Encoding": "gzip, deflate, sdch, br",
-            "Accept-Language": "en-US,en;q=0.8",
-            "Cache-Control": "no-cache",
-            "dnt": "1",
-            "Pragma": "no-cache",
-            "Upgrade-Insecure-Requests": "1",
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36\
-                (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
-    }
 
-    # Get all the text of the page identified by the input URL
-    response = requests.get(url_comedia, headers=headers)
-    soup = BeautifulSoup(response.text, features="html.parser")
-    print("hola")
-    # URL imdb
+
+def get_image_movie(soup,movie_info,movie_id,genre_name,headers):
+
+    """
+    Function that allows you to download the image from movie and it returns the
+    relative path where the images are downloaded 
+
+    Inputs:
+        - soup: the text of the page identified by the input URL
+        - movie_info: text of the movie in html format
+        - movie_id: unique id of each movie
+        - genre_name: name identifying the genre of the movie
+        - headers: information for modifying the user-agent
+    """
+
+    # URL imdb to get the absolute path of the images
     imdb_url = 'https://www.imdb.com'
 
-    # Get all urls movies for image and video
-    all_movies = soup.find_all("div", {"class": "lister-item-content"})
+    # Get the relative paths of the photos and videos of the films
+    url_photo = movie_info.find('a').get("href")
 
-    # Get the urls of the photos and videos of the films
-    urls_photos_videos = [movie_info.find('a').get("href") for movie_info in all_movies]
+    # Get the absolutes paths of the photos and videos of the films
+    abs_url_photo = urllib.parse.urljoin(imdb_url,url_photo)
 
-    # Get the abs urls
-    abs_urls_photos_videos = [urllib.parse.urljoin(imdb_url,url) for url in urls_photos_videos]
-
-    abs_url_prueba = abs_urls_photos_videos[4]
-    abs_url_prueba
     # Get all the text of the page identified by the input URL
-    response = requests.get(abs_url_prueba, headers=headers)
+    response = requests.get(abs_url_photo, headers=headers)
     soup = BeautifulSoup(response.text, features="html.parser")
 
-    # Get all urls movies for image and video
-    photo_img = soup.find("div", {"class": "ipc-media ipc-media--poster-27x40 ipc-image-media-ratio--poster-27x40 ipc-media--baseAlt ipc-media--poster-l ipc-poster__poster-image ipc-media__img"})
-    for i in photo_img:
-        foto = i.get("srcset").split(',')[0]
+    # Get url movie for download the image 
+    image_poster = soup.find("div", {"class": "ipc-media ipc-media--poster-27x40 ipc-image-media-ratio--poster-27x40 ipc-media--baseAlt ipc-media--poster-l ipc-poster__poster-image ipc-media__img"})
+    for image_poster_content in image_poster:
+        url_image = image_poster_content.get("srcset").split(',')[0]
 
-    img_data = requests.get(foto).content
-    with open('src/images_films/comedia_111112.jpg', 'wb') as handler:
-        handler.write(img_data)
+    # Get the image of film and save to images_film folder 
+    image_data = requests.get(url_image).content
+    with open('src/images_films/'+genre_name+'_'+str(movie_id)+'.jpg', 'wb') as handler:
+        handler.write(image_data)
+        print("download image"+str(movie_id))
+
+    return '/images_films/'+genre_name+'_'+str(movie_id)+'.jpg'
+
 

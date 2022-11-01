@@ -8,6 +8,7 @@ Authors:
 
 import requests
 from bs4 import BeautifulSoup
+from get_images import get_image_movie
 
 def genre_movies_extraction(genre_name, genre_url, headers):
     """
@@ -40,6 +41,9 @@ def genre_movies_extraction(genre_name, genre_url, headers):
             movie_title = movie_id_title_year[1]
         else: 
             movie_title = "NA"
+
+        # Get movie image
+        movie_image = get_image_movie(soup,movie_info,movie_id,genre_name,headers)
 
         # Get movie duration
         raw_movie_duration = movie_info.find("span", {"class": "runtime"})
@@ -86,7 +90,8 @@ def genre_movies_extraction(genre_name, genre_url, headers):
             'Movie Rating': movie_rating,
             'Movie Description': movie_description,
             'Movie Stars': movie_stars,
-            'Movie Votes': movie_votes
+            'Movie Votes': movie_votes,
+            'Movie Images': movie_image
             }
 
     return genre_movies
