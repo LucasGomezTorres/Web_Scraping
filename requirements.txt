@@ -2,3 +2,5 @@ regex
 pandas==1.0.4
 requests
 bs4
+chromedriver_binary
+tqdm
