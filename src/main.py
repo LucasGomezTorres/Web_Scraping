@@ -43,6 +43,7 @@ def main():
         movies_genre[genre_name]= genre_movies_extraction(genre_name, genre_url, headers)
         print(f"{genre_name} movies:" + str(genre_movies_extraction(genre_name, genre_url, headers)))
 
+    print("3. CSV data storage")
     # Data to print in CSV
     data_to_csv={'Movie Title': [], 'Movie Year': [], 'Movie Duration': [], 'Movie Rating':[],
                  'Movie Description': [], 'Movie Stars': [], 'Movie Votes': [], 'Movie Image': []}
@@ -58,8 +59,6 @@ def main():
     # Path to store final CSV
     p = Path(os.path.realpath(__file__))
     csv_path  = os.path.join(p.parent.parent, "dataset/data.csv")
-
-    print("3. Extraction of information from a movie")
     df = pd.DataFrame.from_dict(data_to_csv)
     df.to_csv(csv_path, encoding='utf-8', index=False)
 
