@@ -16,17 +16,16 @@ import urllib.parse
 #!pip install webdriver-manager
 import chromedriver_binary 
 from bs4 import BeautifulSoup
-from selenium.webdriver import Firefox
-from webdriver_manager.firefox import GeckoDriverManager
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import ElementClickInterceptedException
-from selenium.webdriver.common.by import By
+# from selenium.webdriver import Firefox
+# from webdriver_manager.firefox import GeckoDriverManager
+# from selenium.common.exceptions import NoSuchElementException
+# from selenium.common.exceptions import ElementClickInterceptedException
+# from selenium.webdriver.common.by import By
 from tqdm import tqdm
 from urllib.parse import urlparse
 
 
-
-def get_image_movie(soup,movie_info,movie_id,genre_name,headers):
+def get_image_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True):
 
     """
     Function that allows you to download the image from movie and it returns the
@@ -58,12 +57,15 @@ def get_image_movie(soup,movie_info,movie_id,genre_name,headers):
     for image_poster_content in image_poster:
         url_image = image_poster_content.get("srcset").split(',')[0]
 
-    # Get the image of film and save to images_film folder 
-    image_data = requests.get(url_image).content
-    with open('src/images_films/'+genre_name+'_'+str(movie_id)+'.jpg', 'wb') as handler:
-        handler.write(image_data)
-        print("download image"+str(movie_id))
-
-    return '/images_films/'+genre_name+'_'+str(movie_id)+'.jpg'
+    # Return only the access URL
+    if only_url:
+        return url_image
+    else:
+        # Get the image of film and save to images_film folder 
+        image_data = requests.get(url_image).content
+        with open('src/images_films/'+genre_name+'_'+str(movie_id)+'.jpg', 'wb') as handler:
+            handler.write(image_data)
+            print("download image"+str(movie_id))
+            return '/images_films/'+genre_name+'_'+str(movie_id)+'.jpg'
 
 
