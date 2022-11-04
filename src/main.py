@@ -35,13 +35,13 @@ def main():
 
     print("2. Extraction of information from movies of each genre")
     print("\n")
+    
     movies_genre={}
     for genre_name in list(genres.keys()):
         print("\n >>>>>>> Genre: " +genre_name+ " <<<<<<< \n" )
         genre_url = genres[genre_name]
         movies_genre[genre_name]= genre_movies_extraction(genre_name, genre_url, headers)
         print(f"{genre_name} movies:" + str(genre_movies_extraction(genre_name, genre_url, headers)))
-        break
 
     # Data to print in CSV
     data_to_csv={'Movie Title': [], 'Movie Year': [], 'Movie Duration': [], 'Movie Rating':[],

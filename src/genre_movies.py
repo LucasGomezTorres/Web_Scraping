@@ -64,6 +64,9 @@ def genre_movies_extraction(genre_name, genre_url, headers):
         raw_movie_description = movie_info.find_all("p", {"class": "text-muted"})
         if raw_movie_description!= None:
             movie_description = raw_movie_description[-1].get_text().replace("\n", "")
+            if movie_description[:6] == 'Votes:' or movie_description.strip()[:9] == 'Director:':
+                raw_movie_description = movie_info.find_all("p", {"class": ""})
+                movie_description = raw_movie_description[-1].get_text().replace("\n", "")
         else: movie_description = "NA"
 
         # Get movie stars
