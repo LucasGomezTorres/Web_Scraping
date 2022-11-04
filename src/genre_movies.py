@@ -8,7 +8,7 @@ Authors:
 
 import requests
 from bs4 import BeautifulSoup
-from get_images import get_image_movie
+#from get_images import get_image_movie
 
 def genre_movies_extraction(genre_name, genre_url, headers):
     """
@@ -38,12 +38,17 @@ def genre_movies_extraction(genre_name, genre_url, headers):
         if raw_movie_title!= None:
             movie_id_title_year = raw_movie_title[0].get_text().replace("\n", "").split('.')
             movie_id = movie_id_title_year[0]
-            movie_title = movie_id_title_year[1]
+            movie_title = str(movie_id_title_year[1].split('(')[0])
+            # Get movie year
+            try:
+                movie_year = str(movie_title.split('(')[-1])[:4]
+            except:
+                movie_year = "NA"
         else: 
-            movie_title = "NA"
-
+            movie_title = "NA"  
+        
         # Get movie image
-        movie_image = get_image_movie(soup,movie_info,movie_id,genre_name,headers)
+        #movie_image = get_image_movie(soup,movie_info,movie_id,genre_name,headers)
 
         # Get movie duration
         raw_movie_duration = movie_info.find("span", {"class": "runtime"})
@@ -72,7 +77,10 @@ def genre_movies_extraction(genre_name, genre_url, headers):
         except:
             raw_movie_stars = movie_info.find("p", {"class": ""})
         if raw_movie_stars!= None:
-            movie_stars = raw_movie_stars.get_text().replace("\n", "").split('Stars:')[1]
+            try:
+                movie_stars = raw_movie_stars.get_text().replace("\n", "").split('Stars:')[1]
+            except:
+                movie_stars = "NA"
         else:
             movie_stars = "NA"
 
@@ -86,12 +94,13 @@ def genre_movies_extraction(genre_name, genre_url, headers):
         # Storage of information in the data structure
         genre_movies[f"{genre_name}_movie_{movie_id}"] = {
             'Movie Title': movie_title,
+            'Movie Year': movie_year,
             'Movie Duration': movie_duration,
             'Movie Rating': movie_rating,
             'Movie Description': movie_description,
             'Movie Stars': movie_stars,
             'Movie Votes': movie_votes,
-            'Movie Images': movie_image
+            #'Movie Images': movie_image
             }
 
     return genre_movies
