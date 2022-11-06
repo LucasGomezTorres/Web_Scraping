@@ -2,10 +2,10 @@
 FROM python:3.8.2
 
 # Copy of all project code inside docker to be able to run it in Docker containers
-COPY . /src
+COPY . .
 
 # Establishment of the working directory
-WORKDIR /src
+WORKDIR /.
 
 # Installation of project requirements
 RUN pip install -r requirements.txt

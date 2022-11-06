@@ -1,13 +1,14 @@
 """
-Description:
-
+Description: Main file
 
 Authors: 
     Lucas Gómez, Joan Amengual
 """
-
-from genre_movies import genre_movies_extraction
-from genres_extraction import genres_names_urls_extraction
+import os
+import pandas               as pd
+from genre_movies           import genre_movies_extraction
+from genres_extraction      import genres_names_urls_extraction
+from pathlib                import Path
 
 def main():
 
@@ -34,12 +35,32 @@ def main():
 
     print("2. Extraction of information from movies of each genre")
     print("\n")
+    
+    movies_genre={}
     for genre_name in list(genres.keys()):
         print("\n >>>>>>> Genre: " +genre_name+ " <<<<<<< \n" )
-        genre_url = genres[genre_name] 
+        genre_url = genres[genre_name]
+        movies_genre[genre_name]= genre_movies_extraction(genre_name, genre_url, headers)
         print(f"{genre_name} movies:" + str(genre_movies_extraction(genre_name, genre_url, headers)))
 
-    print("3. Extraction of information from a movie")
+    print("3. CSV data storage")
+    # Data to print in CSV
+    data_to_csv={'Movie Title': [], 'Movie Year': [], 'Movie Duration': [], 'Movie Rating':[],
+                 'Movie Description': [], 'Movie Stars': [], 'Movie Votes': [], 'Movie Image': []}
+
+    # Data structure to display the CSV correctly
+    for _genre in movies_genre.keys():
+        keys_dict = movies_genre[_genre].keys()
+        for _id in keys_dict:
+            data_dict = movies_genre[_genre][_id]
+            for _key in data_dict:
+                data_to_csv[_key].append(str(data_dict[_key]))
+
+    # Path to store final CSV
+    p = Path(os.path.realpath(__file__))
+    csv_path  = os.path.join(p.parent.parent, "dataset/data.csv")
+    df = pd.DataFrame.from_dict(data_to_csv)
+    df.to_csv(csv_path, encoding='utf-8', index=False)
 
 if __name__ == "__main__":
     main()
