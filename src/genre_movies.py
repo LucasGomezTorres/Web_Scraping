@@ -48,12 +48,9 @@ def genre_movies_extraction(genre_name, genre_url, headers):
         
         # Get movie image
         movie_image = get_image_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True)
-<<<<<<< HEAD
 
         # Get movie video
         movie_video = get_video_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True)
-=======
->>>>>>> 6224db907da7d9d49a8b5bcfb5b3cdb4901efcd1
 
         # Get movie duration
         raw_movie_duration = movie_info.find("span", {"class": "runtime"})
@@ -99,12 +96,8 @@ def genre_movies_extraction(genre_name, genre_url, headers):
             'Movie Description': movie_description,
             'Movie Stars': movie_stars,
             'Movie Votes': movie_votes,
-<<<<<<< HEAD
             'Movie Image': movie_image,
             'Movie Video': movie_video
-=======
-            'Movie Image': movie_image
->>>>>>> 6224db907da7d9d49a8b5bcfb5b3cdb4901efcd1
             }
 
     return genre_movies
