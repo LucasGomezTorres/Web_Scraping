@@ -45,15 +45,15 @@ def main():
 
     print("3. CSV data storage")
     # Data to print in CSV
-    data_to_csv={'Movie Title': [], 'Movie Year': [], 'Movie Duration': [], 'Movie Rating':[],
-                 'Movie Description': [], 'Movie Stars': [], 'Movie Votes': [], 'Movie Image': []}
-
+    data_to_csv={}
     # Data structure to display the CSV correctly
     for _genre in movies_genre.keys():
         keys_dict = movies_genre[_genre].keys()
         for _id in keys_dict:
             data_dict = movies_genre[_genre][_id]
             for _key in data_dict:
+                if data_to_csv.get(_key) is None:
+                    data_to_csv[_key] = []
                 data_to_csv[_key].append(str(data_dict[_key]))
 
     # Path to store final CSV

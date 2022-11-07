@@ -46,12 +46,6 @@ def genre_movies_extraction(genre_name, genre_url, headers):
             else: movie_year = "NA"
         else: movie_title = "NA"  
         
-        # Get movie image
-        movie_image = get_image_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True)
-
-        # Get movie video
-        movie_video = get_video_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True)
-
         # Get movie duration
         raw_movie_duration = movie_info.find("span", {"class": "runtime"})
         if raw_movie_duration!= None:
@@ -86,6 +80,12 @@ def genre_movies_extraction(genre_name, genre_url, headers):
         if raw_movie_votes!= None:
             movie_votes = raw_movie_votes.get_text().replace("\n", "")
         else: movie_votes = "NA"
+
+        # Get movie image
+        movie_image = get_image_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True)
+
+        # Get movie video
+        movie_video = get_video_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True)
 
         # Storage of information in the data structure
         genre_movies[f"{genre_name}_movie_{movie_id}"] = {
