@@ -28,8 +28,7 @@ from urllib.parse import urlparse
 def get_image_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True):
 
     """
-    Function that allows you to download the image from movie and it returns the
-    relative path where the images are downloaded 
+    Function that allows you to download the image from movie and it returns the image download url
 
     Inputs:
         - soup: the text of the page identified by the input URL
@@ -63,7 +62,7 @@ def get_image_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True):
     else:
         # Get the image of film and save to images_film folder 
         image_data = requests.get(url_image).content
-        with open('dataset/images_films/'+genre_name+'_'+str(movie_id)+'.jpg', 'wb') as handler:
+        with open('src/images_films/'+genre_name+'_'+str(movie_id)+'.jpg', 'wb') as handler:
             handler.write(image_data)
             print("download image"+str(movie_id))
             return '/images_films/'+genre_name+'_'+str(movie_id)+'.jpg'
