@@ -49,3 +49,43 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:62589/devtools/browser/2f845242-0a37-41a0-a8db-761a03d120ec
 JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668020417894	geckodriver	INFO	Listening on 127.0.0.1:62734
+1668020418113	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62735" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileBJLd2M"
+2022-11-09 20:00:18.531 plugin-container[59693:1567251] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 20:00:18.531 plugin-container[59693:1567251] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 20:00:18.534 plugin-container[59693:1567251] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 20:00:18.534 plugin-container[59693:1567251] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 20:00:18.534 plugin-container[59693:1567255] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 20:00:18.534 plugin-container[59693:1567255] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668020418550	Marionette	INFO	Marionette enabled
+1668020418581	Marionette	INFO	Listening on port 62742
+Read port: 62742
+WebDriver BiDi listening on ws://127.0.0.1:62735
+1668020418766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileBJLd2M/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62735/devtools/browser/2d5d5fd5-d567-4280-90b8-aa77084954df
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1668020511014	geckodriver	INFO	Listening on 127.0.0.1:62818
+1668020511254	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62819" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileNN1NW1"
+2022-11-09 20:01:51.669 plugin-container[59748:1568709] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 20:01:51.670 plugin-container[59748:1568709] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 20:01:51.672 plugin-container[59748:1568709] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 20:01:51.672 plugin-container[59748:1568709] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 20:01:51.673 plugin-container[59748:1568711] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 20:01:51.673 plugin-container[59748:1568711] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668020511691	Marionette	INFO	Marionette enabled
+1668020511720	Marionette	INFO	Listening on port 62826
+Read port: 62826
+WebDriver BiDi listening on ws://127.0.0.1:62819
+1668020511908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileNN1NW1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62819/devtools/browser/0b4c4dae-4ff2-4074-a3b1-630d22c37d0e
+1668020514880	Marionette	INFO	Stopped listening on port 62826
+1668025128319	Marionette	INFO	Stopped listening on port 62440
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668025129944	Marionette	INFO	Stopped listening on port 62514
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668025131766	Marionette	INFO	Stopped listening on port 62596
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

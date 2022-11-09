@@ -15,7 +15,7 @@ def genres_names_urls_extraction(session,genres_url,headers):
     Function that allows you to extract the names and urls from the movie genres.
 
     Inputs:
-        - session: the session with cookies 
+        - session: the session with cookies. 
         - genres_url: URL initial to access the page where to extract information.
         - headers: information for modifying the user-agent.
 

@@ -57,8 +57,8 @@ def main():
     for genre_name in list(genres.keys()):
         print("\n >>>>>>> Genre: " +genre_name+ " <<<<<<< \n" )
         genre_url = genres[genre_name]
-        movies_genre[genre_name]= genre_movies_extraction(genre_name, genre_url, headers)
-        print(f"{genre_name} movies:" + str(genre_movies_extraction(genre_name, genre_url, headers)))
+        movies_genre[genre_name]= genre_movies_extraction(session,genre_name, genre_url, headers)
+        print(f"{genre_name} movies:" + str(genre_movies_extraction(session,genre_name, genre_url, headers)))
 
     print("3. CSV data storage")
     # Data to print in CSV

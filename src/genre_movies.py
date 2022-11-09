@@ -6,17 +6,17 @@ Authors:
     Lucas Gómez, Joan Amengual
 """
 
-import requests
 from bs4 import BeautifulSoup
 from get_images import get_image_movie
 from get_videos import get_video_movie
 
-def genre_movies_extraction(genre_name, genre_url, headers):
+def genre_movies_extraction(session,genre_name, genre_url, headers):
     """
     Function that allows you to extract information from movie cards, such as: 
     identifier, title, duration, rating, description, actors, etc.
 
     Inputs:
+        - session: the session with cookies.
         - genre_name: Name identifying the genre of the movies
         - genre_url: URL to access the page where to extract information
     """
@@ -25,7 +25,7 @@ def genre_movies_extraction(genre_name, genre_url, headers):
     genre_movies = {}
 
     # Get all the text of the page identified by the input URL
-    response = requests.get(genre_url, headers=headers)
+    response = session.get(genre_url, headers=headers)
     soup = BeautifulSoup(response.text, features="html.parser")
 
     # Get all movies

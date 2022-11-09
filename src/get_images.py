@@ -61,7 +61,7 @@ def get_image_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True):
         return url_image
     else:
         # Get the image of film and save to images_film folder 
-        image_data = requests.get(url_image).content
+        image_data = requests.get(url_image,headers=headers).content
         with open('src/images_films/'+genre_name+'_'+str(movie_id)+'.jpg', 'wb') as handler:
             handler.write(image_data)
             print("download image"+str(movie_id))

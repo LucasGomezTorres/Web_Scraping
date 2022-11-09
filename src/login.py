@@ -50,6 +50,9 @@ def login(url_login, data_login, headers):
     # The same cookies are given to the requests session and the browser to have the 2 sessions open
     for cookie in driver.get_cookies():
         session.cookies.set(cookie['name'], cookie['value'])
+    
+    # Close the browser
+    driver.quit()
 
     return session
 
