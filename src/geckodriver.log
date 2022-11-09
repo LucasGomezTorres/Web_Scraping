@@ -1,0 +1,349 @@
+1668012529542	geckodriver	INFO	Listening on 127.0.0.1:50095
+1668012529734	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50096" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileGL6ZoF"
+2022-11-09 17:48:50.239 plugin-container[58446:1492797] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:48:50.239 plugin-container[58446:1492797] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668012530255	Marionette	INFO	Marionette enabled
+1668012530293	Marionette	INFO	Listening on port 50103
+2022-11-09 17:48:50.324 plugin-container[58446:1492797] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:48:50.324 plugin-container[58446:1492797] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 17:48:50.324 plugin-container[58446:1492852] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:48:50.324 plugin-container[58446:1492852] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 50103
+WebDriver BiDi listening on ws://127.0.0.1:50096
+1668012530499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileGL6ZoF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50096/devtools/browser/529af9a5-5e97-4c32-a981-5a32e5c7e0dc
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668012563549	geckodriver	INFO	Listening on 127.0.0.1:50473
+1668012563769	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50474" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofilexicjiM"
+2022-11-09 17:49:24.187 plugin-container[58474:1493574] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:49:24.188 plugin-container[58474:1493574] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 17:49:24.190 plugin-container[58474:1493574] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:49:24.190 plugin-container[58474:1493574] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 17:49:24.190 plugin-container[58474:1493576] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:49:24.190 plugin-container[58474:1493576] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668012564211	Marionette	INFO	Marionette enabled
+1668012564355	Marionette	INFO	Listening on port 50481
+Read port: 50481
+WebDriver BiDi listening on ws://127.0.0.1:50474
+1668012564470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofilexicjiM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50474/devtools/browser/166ccfac-9c9f-4ae1-9b82-ecb8b9e90b47
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668012629783	geckodriver	INFO	Listening on 127.0.0.1:50871
+1668012629991	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50872" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofile735Shm"
+2022-11-09 17:50:30.396 plugin-container[58502:1494570] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:50:30.396 plugin-container[58502:1494570] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 17:50:30.399 plugin-container[58502:1494570] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:50:30.399 plugin-container[58502:1494570] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 17:50:30.399 plugin-container[58502:1494576] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:50:30.399 plugin-container[58502:1494576] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668012630418	Marionette	INFO	Marionette enabled
+1668012630448	Marionette	INFO	Listening on port 50880
+Read port: 50880
+WebDriver BiDi listening on ws://127.0.0.1:50872
+1668012630581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofile735Shm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50872/devtools/browser/1f72f731-f7ef-41a3-8da9-a58093cd5aa1
+1668012793322	geckodriver	INFO	Listening on 127.0.0.1:51284
+1668012793532	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51285" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofilenJ0Pot"
+2022-11-09 17:53:13.947 plugin-container[58525:1495953] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:53:13.947 plugin-container[58525:1495953] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 17:53:13.950 plugin-container[58525:1495953] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:53:13.950 plugin-container[58525:1495953] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 17:53:13.951 plugin-container[58525:1495962] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:53:13.951 plugin-container[58525:1495962] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668012793966	Marionette	INFO	Marionette enabled
+1668012793999	Marionette	INFO	Listening on port 51290
+Read port: 51290
+WebDriver BiDi listening on ws://127.0.0.1:51285
+1668012794205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofilenJ0Pot/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51285/devtools/browser/6fcc0be5-5b12-4264-893b-e36ddd6fda0f
+1668012796757	Marionette	INFO	Stopped listening on port 50103
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668012798604	Marionette	INFO	Stopped listening on port 50481
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668012800707	Marionette	INFO	Stopped listening on port 50880
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668012848511	geckodriver	INFO	Listening on 127.0.0.1:51702
+1668012848721	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51703" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileDHRfKJ"
+2022-11-09 17:54:09.129 plugin-container[58553:1497084] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:54:09.129 plugin-container[58553:1497084] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 17:54:09.132 plugin-container[58553:1497084] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:54:09.132 plugin-container[58553:1497084] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 17:54:09.132 plugin-container[58553:1497086] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 17:54:09.132 plugin-container[58553:1497086] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668012849151	Marionette	INFO	Marionette enabled
+1668012849182	Marionette	INFO	Listening on port 51708
+Read port: 51708
+WebDriver BiDi listening on ws://127.0.0.1:51703
+1668012849356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileDHRfKJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51703/devtools/browser/9be45406-7356-4da8-9ca8-01077359e0d8
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668014261514	geckodriver	INFO	Listening on 127.0.0.1:52430
+1668014261721	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52431" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileC1Vv72"
+2022-11-09 18:17:42.139 plugin-container[58686:1507444] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:17:42.139 plugin-container[58686:1507444] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:17:42.142 plugin-container[58686:1507444] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:17:42.142 plugin-container[58686:1507444] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:17:42.143 plugin-container[58686:1507452] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:17:42.143 plugin-container[58686:1507452] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668014262159	Marionette	INFO	Marionette enabled
+1668014262189	Marionette	INFO	Listening on port 52436
+Read port: 52436
+WebDriver BiDi listening on ws://127.0.0.1:52431
+1668014262381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileC1Vv72/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52431/devtools/browser/e99707e7-1a50-4804-a446-2f17e25fdb7b
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668014452609	geckodriver	INFO	Listening on 127.0.0.1:52841
+1668014452814	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52842" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofilepQugrI"
+2022-11-09 18:20:53.251 plugin-container[58709:1509212] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:20:53.251 plugin-container[58709:1509212] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:20:53.255 plugin-container[58709:1509212] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:20:53.255 plugin-container[58709:1509212] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:20:53.255 plugin-container[58709:1509210] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:20:53.255 plugin-container[58709:1509210] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668014453269	Marionette	INFO	Marionette enabled
+1668014453298	Marionette	INFO	Listening on port 52847
+Read port: 52847
+WebDriver BiDi listening on ws://127.0.0.1:52842
+1668014453491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofilepQugrI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52842/devtools/browser/9fa9ee8b-ac63-4257-b2db-1654b56cd3b3
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668014467762	geckodriver	INFO	Listening on 127.0.0.1:53041
+1668014467976	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53042" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofile1mOZCC"
+2022-11-09 18:21:08.390 plugin-container[58728:1509760] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:21:08.390 plugin-container[58728:1509760] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:21:08.393 plugin-container[58728:1509760] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:21:08.393 plugin-container[58728:1509760] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:21:08.393 plugin-container[58728:1509770] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:21:08.393 plugin-container[58728:1509770] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668014468408	Marionette	INFO	Marionette enabled
+1668014468438	Marionette	INFO	Listening on port 53063
+Read port: 53063
+WebDriver BiDi listening on ws://127.0.0.1:53042
+1668014468635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofile1mOZCC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53042/devtools/browser/09c5e734-eff3-4ab0-8bb8-3c4703168278
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668014488477	geckodriver	INFO	Listening on 127.0.0.1:53348
+1668014488684	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53349" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofilegK8nLp"
+2022-11-09 18:21:29.110 plugin-container[58748:1510361] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:21:29.111 plugin-container[58748:1510361] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:21:29.113 plugin-container[58748:1510361] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:21:29.113 plugin-container[58748:1510361] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:21:29.113 plugin-container[58748:1510367] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:21:29.113 plugin-container[58748:1510367] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668014489130	Marionette	INFO	Marionette enabled
+1668014489163	Marionette	INFO	Listening on port 53369
+Read port: 53369
+WebDriver BiDi listening on ws://127.0.0.1:53349
+1668014489311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofilegK8nLp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53349/devtools/browser/b807aaf0-ab02-4ff8-a120-70adc97ebe3b
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668014565319	geckodriver	INFO	Listening on 127.0.0.1:53809
+1668014565534	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53810" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileLATepM"
+2022-11-09 18:22:45.949 plugin-container[58770:1511392] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:22:45.949 plugin-container[58770:1511392] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:22:45.952 plugin-container[58770:1511392] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:22:45.952 plugin-container[58770:1511392] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:22:45.952 plugin-container[58770:1511401] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:22:45.952 plugin-container[58770:1511401] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668014565968	Marionette	INFO	Marionette enabled
+1668014565998	Marionette	INFO	Listening on port 53815
+Read port: 53815
+WebDriver BiDi listening on ws://127.0.0.1:53810
+1668014566189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileLATepM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53810/devtools/browser/b9a465a5-a971-4689-a404-41139bda3c89
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668014649902	geckodriver	INFO	Listening on 127.0.0.1:54246
+1668014650100	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54247" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileoZAYgO"
+2022-11-09 18:24:10.520 plugin-container[58791:1512439] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:24:10.520 plugin-container[58791:1512439] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:24:10.523 plugin-container[58791:1512439] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:24:10.523 plugin-container[58791:1512439] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:24:10.523 plugin-container[58791:1512437] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:24:10.523 plugin-container[58791:1512437] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668014650539	Marionette	INFO	Marionette enabled
+1668014650569	Marionette	INFO	Listening on port 54253
+Read port: 54253
+WebDriver BiDi listening on ws://127.0.0.1:54247
+1668014650766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileoZAYgO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54247/devtools/browser/9b5c4436-632d-4448-aa89-7862166455d1
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668015012578	geckodriver	INFO	Listening on 127.0.0.1:54735
+1668015012791	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54736" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileM17b67"
+2022-11-09 18:30:13.218 plugin-container[58828:1516712] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:30:13.218 plugin-container[58828:1516712] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:30:13.222 plugin-container[58828:1516712] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:30:13.222 plugin-container[58828:1516712] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:30:13.222 plugin-container[58828:1516709] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:30:13.222 plugin-container[58828:1516709] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668015013239	Marionette	INFO	Marionette enabled
+1668015013270	Marionette	INFO	Listening on port 54741
+Read port: 54741
+WebDriver BiDi listening on ws://127.0.0.1:54736
+1668015013481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileM17b67/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54736/devtools/browser/ce579a9a-ca8f-4775-b5a5-f53144693085
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668016072375	Marionette	INFO	Stopped listening on port 51290
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668016081758	Marionette	INFO	Stopped listening on port 52436
+1668016084299	Marionette	INFO	Stopped listening on port 52847
+1668016085784	Marionette	INFO	Stopped listening on port 53063
+1668016087482	Marionette	INFO	Stopped listening on port 53369
+1668016089864	Marionette	INFO	Stopped listening on port 53815
+1668016092111	Marionette	INFO	Stopped listening on port 54253
+1668016094143	Marionette	INFO	Stopped listening on port 54741
+1668016096630	Marionette	INFO	Stopped listening on port 51708
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668016175108	geckodriver	INFO	Listening on 127.0.0.1:55325
+1668016175327	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55326" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofiles49j5L"
+2022-11-09 18:49:35.752 plugin-container[58920:1527384] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:49:35.752 plugin-container[58920:1527384] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:49:35.755 plugin-container[58920:1527384] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:49:35.755 plugin-container[58920:1527384] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:49:35.755 plugin-container[58920:1527391] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:49:35.755 plugin-container[58920:1527391] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668016175771	Marionette	INFO	Marionette enabled
+1668016175915	Marionette	INFO	Listening on port 55333
+Read port: 55333
+WebDriver BiDi listening on ws://127.0.0.1:55326
+1668016176033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofiles49j5L/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55326/devtools/browser/df6da28c-96de-406d-9d59-3b1c431ea718
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668016252020	geckodriver	INFO	Listening on 127.0.0.1:55768
+1668016252239	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55769" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileli2pSK"
+2022-11-09 18:50:52.649 plugin-container[58941:1528460] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:50:52.649 plugin-container[58941:1528460] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:50:52.652 plugin-container[58941:1528460] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:50:52.652 plugin-container[58941:1528460] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:50:52.652 plugin-container[58941:1528464] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:50:52.652 plugin-container[58941:1528464] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668016252670	Marionette	INFO	Marionette enabled
+1668016252699	Marionette	INFO	Listening on port 55774
+Read port: 55774
+WebDriver BiDi listening on ws://127.0.0.1:55769
+1668016252857	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileli2pSK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55769/devtools/browser/6f5f8eba-f6c7-4369-89c6-db79de27b321
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668016269217	geckodriver	INFO	Listening on 127.0.0.1:55982
+1668016269433	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55983" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileZcvjqB"
+2022-11-09 18:51:09.847 plugin-container[58960:1528955] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:51:09.847 plugin-container[58960:1528955] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:51:09.850 plugin-container[58960:1528955] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:51:09.850 plugin-container[58960:1528955] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:51:09.850 plugin-container[58960:1528953] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:51:09.850 plugin-container[58960:1528953] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668016269870	Marionette	INFO	Marionette enabled
+1668016269899	Marionette	INFO	Listening on port 56004
+Read port: 56004
+WebDriver BiDi listening on ws://127.0.0.1:55983
+1668016270038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileZcvjqB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55983/devtools/browser/d55a4b48-7cf7-483a-b355-6f626d1978fe
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668016289962	geckodriver	INFO	Listening on 127.0.0.1:56285
+1668016290178	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56286" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofile0HcRx6"
+2022-11-09 18:51:30.588 plugin-container[58980:1529532] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:51:30.588 plugin-container[58980:1529532] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:51:30.592 plugin-container[58980:1529532] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:51:30.592 plugin-container[58980:1529532] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:51:30.592 plugin-container[58980:1529539] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:51:30.593 plugin-container[58980:1529539] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668016290607	Marionette	INFO	Marionette enabled
+1668016290637	Marionette	INFO	Listening on port 56309
+Read port: 56309
+WebDriver BiDi listening on ws://127.0.0.1:56286
+1668016290781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofile0HcRx6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56286/devtools/browser/98851ef5-2e1e-4e59-a643-4484168ccd09
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668016326415	geckodriver	INFO	Listening on 127.0.0.1:56671
+1668016326626	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56672" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofile0tRx6n"
+2022-11-09 18:52:07.039 plugin-container[58999:1530276] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:52:07.039 plugin-container[58999:1530276] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:52:07.042 plugin-container[58999:1530276] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:52:07.042 plugin-container[58999:1530276] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:52:07.042 plugin-container[58999:1530274] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:52:07.042 plugin-container[58999:1530274] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668016327058	Marionette	INFO	Marionette enabled
+1668016327087	Marionette	INFO	Listening on port 56677
+Read port: 56677
+WebDriver BiDi listening on ws://127.0.0.1:56672
+1668016327295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofile0tRx6n/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56672/devtools/browser/c286d00c-143b-448b-b405-23c32b9c0655
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668016413007	geckodriver	INFO	Listening on 127.0.0.1:57134
+1668016413198	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57135" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileuCjAP2"
+2022-11-09 18:53:33.627 plugin-container[59026:1531261] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:53:33.627 plugin-container[59026:1531261] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:53:33.630 plugin-container[59026:1531261] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:53:33.630 plugin-container[59026:1531261] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 18:53:33.631 plugin-container[59026:1531270] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 18:53:33.631 plugin-container[59026:1531270] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668016413645	Marionette	INFO	Marionette enabled
+1668016413672	Marionette	INFO	Listening on port 57141
+Read port: 57141
+WebDriver BiDi listening on ws://127.0.0.1:57135
+1668016413810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileuCjAP2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57135/devtools/browser/af373247-0cbd-4e99-8206-f30bb61c8a14
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668018141138	Marionette	INFO	Stopped listening on port 55333
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668018142957	Marionette	INFO	Stopped listening on port 55774
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668018144927	Marionette	INFO	Stopped listening on port 56004
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668018146655	Marionette	INFO	Stopped listening on port 56309
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668018148354	Marionette	INFO	Stopped listening on port 56677
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668018150036	Marionette	INFO	Stopped listening on port 57141
+1668018769199	geckodriver	INFO	Listening on 127.0.0.1:60622
+1668018769404	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60623" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileHYyPMO"
+2022-11-09 19:32:49.872 plugin-container[59198:1551531] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:32:49.873 plugin-container[59198:1551531] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 19:32:49.878 plugin-container[59198:1551531] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:32:49.878 plugin-container[59198:1551531] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 19:32:49.879 plugin-container[59198:1551534] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:32:49.879 plugin-container[59198:1551534] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668018769891	Marionette	INFO	Marionette enabled
+1668018769927	Marionette	INFO	Listening on port 60634
+Read port: 60634
+WebDriver BiDi listening on ws://127.0.0.1:60623
+1668018770094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileHYyPMO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60623/devtools/browser/b076c409-069a-4c2a-8b95-788c90a3bd49
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

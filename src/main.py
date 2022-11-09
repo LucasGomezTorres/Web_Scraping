@@ -9,6 +9,7 @@ import pandas               as pd
 from genre_movies           import genre_movies_extraction
 from genres_extraction      import genres_names_urls_extraction
 from pathlib                import Path
+from login import login
 
 def main():
 
@@ -25,6 +26,22 @@ def main():
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36\
             (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
     }
+
+    # url to login in the page
+    url_login = "https://www.imdb.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9mZWF0dXJlL2dlbnJlLz9yZWZfPWxvZ2luIn0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20"
+
+    # Parameters that are necessary to login
+    data_login =  {
+        'email':'luckigt@icloud.com',
+        'create':'0',
+        'password':'Password'
+    }
+
+    print("0. Login:")
+    print("\n")
+    login(url_login,data_login,headers)
+    print("Login realizado")
+    print("\n")
 
     print("1. URL and names genres extraction:")
     genres_url = "https://www.imdb.com/feature/genre"
