@@ -39,15 +39,15 @@ def main():
 
     print("0. Login:")
     print("\n")
-    login(url_login,data_login,headers)
+    session = login(url_login,data_login,headers)
     print("Login realizado")
     print("\n")
 
     print("1. URL and names genres extraction:")
     genres_url = "https://www.imdb.com/feature/genre"
 
-    print("Genres:" + str(genres_names_urls_extraction(genres_url,headers)))
-    genres = genres_names_urls_extraction(genres_url,headers)
+    print("Genres:" + str(genres_names_urls_extraction(session,genres_url,headers)))
+    genres = genres_names_urls_extraction(session,genres_url,headers)
     print("\n")
 
     print("2. Extraction of information from movies of each genre")

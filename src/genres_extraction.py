@@ -9,17 +9,20 @@ Authors:
 import requests
 from bs4 import BeautifulSoup
 
-def genres_names_urls_extraction(genres_url,headers):
+def genres_names_urls_extraction(session,genres_url,headers):
 
     """
     Function that allows you to extract the names and urls from the movie genres.
 
     Inputs:
+        - session: the session with cookies 
         - genres_url: URL initial to access the page where to extract information.
+        - headers: information for modifying the user-agent.
+
     """
 
     # Get all the text of the page identified by the input URL
-    response = requests.get(genres_url,headers=headers)
+    response = session.get(genres_url,headers=headers)
     soup = BeautifulSoup(response.text,"html.parser")
 
     # Get all the text of the page identified by the input URL

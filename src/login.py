@@ -11,7 +11,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 def login(url_login, data_login, headers):
     """
-    Function that creates a session with the credentials and they will be used to access the data from the requests library 
+    Function that creates and return a session with the credentials and it will be used to access the data from the requests library 
     and through the Firefox browser via Selenium.
 
     Inputs:
@@ -50,5 +50,7 @@ def login(url_login, data_login, headers):
     # The same cookies are given to the requests session and the browser to have the 2 sessions open
     for cookie in driver.get_cookies():
         session.cookies.set(cookie['name'], cookie['value'])
+
+    return session
 
 

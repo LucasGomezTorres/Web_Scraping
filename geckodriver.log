@@ -1,0 +1,51 @@
+1668019845913	geckodriver	INFO	Listening on 127.0.0.1:62434
+1668019846128	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62435" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileL2lejm"
+2022-11-09 19:50:46.561 plugin-container[59463:1560493] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:50:46.561 plugin-container[59463:1560493] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 19:50:46.564 plugin-container[59463:1560493] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:50:46.565 plugin-container[59463:1560493] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 19:50:46.565 plugin-container[59463:1560491] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:50:46.565 plugin-container[59463:1560491] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668019846583	Marionette	INFO	Marionette enabled
+1668019846613	Marionette	INFO	Listening on port 62440
+Read port: 62440
+WebDriver BiDi listening on ws://127.0.0.1:62435
+1668019846754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileL2lejm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62435/devtools/browser/891bf6e3-ef98-411e-9272-f2075ff35e51
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668019888522	geckodriver	INFO	Listening on 127.0.0.1:62507
+1668019888729	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62508" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofilebKxdLe"
+2022-11-09 19:51:29.176 plugin-container[59506:1561315] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:51:29.177 plugin-container[59506:1561315] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 19:51:29.179 plugin-container[59506:1561315] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:51:29.179 plugin-container[59506:1561315] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 19:51:29.179 plugin-container[59506:1561317] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:51:29.179 plugin-container[59506:1561317] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668019889193	Marionette	INFO	Marionette enabled
+1668019889223	Marionette	INFO	Listening on port 62514
+Read port: 62514
+WebDriver BiDi listening on ws://127.0.0.1:62508
+1668019889372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofilebKxdLe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62508/devtools/browser/32975dca-5154-4d71-a22a-e6eac9b6afe2
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668019925325	geckodriver	INFO	Listening on 127.0.0.1:62588
+1668019925515	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62589" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileZXdUtR"
+2022-11-09 19:52:06.010 plugin-container[59541:1562143] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:52:06.011 plugin-container[59541:1562143] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 19:52:06.020 plugin-container[59541:1562143] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:52:06.020 plugin-container[59541:1562143] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-09 19:52:06.020 plugin-container[59541:1562148] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-09 19:52:06.020 plugin-container[59541:1562148] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668019926028	Marionette	INFO	Marionette enabled
+1668019926059	Marionette	INFO	Listening on port 62596
+Read port: 62596
+WebDriver BiDi listening on ws://127.0.0.1:62589
+1668019926309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileZXdUtR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62589/devtools/browser/2f845242-0a37-41a0-a8db-761a03d120ec
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
