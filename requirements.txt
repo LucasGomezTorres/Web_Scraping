@@ -4,3 +4,5 @@ requests
 bs4
 chromedriver_binary
 tqdm
+selenium
+webdriver_manager
