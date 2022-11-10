@@ -381,3 +381,169 @@ Line: 98, column: 1
 console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 98))
 1668025125519	Marionette	INFO	Stopped listening on port 60634
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668093718696	geckodriver	INFO	Listening on 127.0.0.1:59863
+1668093719077	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59864" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6j/g3h167pd5yq6sg2g3br58cgw0000gn/T/rust_mozprofileGpqyGC"
+2022-11-10 16:21:59.610 plugin-container[83233:1278118] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 16:21:59.610 plugin-container[83233:1278118] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668093719623	Marionette	INFO	Marionette enabled
+2022-11-10 16:21:59.644 plugin-container[83233:1278118] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 16:21:59.644 plugin-container[83233:1278118] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 16:21:59.645 plugin-container[83233:1278123] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 16:21:59.645 plugin-container[83233:1278123] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668093719666	Marionette	INFO	Listening on port 59869
+Read port: 59869
+WebDriver BiDi listening on ws://127.0.0.1:59864
+1668093719945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/6j/g3h167pd5yq6sg2g3br58cgw0000gn/T/rust_mozprofileGpqyGC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59864/devtools/browser/d500cc83-6569-4c4d-8276-7e444b4d2404
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+2022-11-10 15:22:20.950 plugin-container[83263:1278848] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 15:22:20.951 plugin-container[83263:1278848] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 15:22:20.955 plugin-container[83263:1278848] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 15:22:20.955 plugin-container[83263:1278848] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 15:22:20.956 plugin-container[83263:1278860] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 15:22:20.956 plugin-container[83263:1278860] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668094065488	geckodriver	INFO	Listening on 127.0.0.1:60325
+1668094065876	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60326" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6j/g3h167pd5yq6sg2g3br58cgw0000gn/T/rust_mozprofileAcvrh1"
+2022-11-10 16:27:46.346 plugin-container[83658:1285707] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 16:27:46.346 plugin-container[83658:1285707] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 16:27:46.353 plugin-container[83658:1285707] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 16:27:46.353 plugin-container[83658:1285707] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 16:27:46.354 plugin-container[83658:1285731] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 16:27:46.354 plugin-container[83658:1285731] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668094066359	Marionette	INFO	Marionette enabled
+1668094066393	Marionette	INFO	Listening on port 60331
+Read port: 60331
+WebDriver BiDi listening on ws://127.0.0.1:60326
+1668094066680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/6j/g3h167pd5yq6sg2g3br58cgw0000gn/T/rust_mozprofileAcvrh1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60326/devtools/browser/056fec0c-6943-4d0e-9459-6153a8d49b76
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+2022-11-10 15:28:07.145 plugin-container[83688:1286323] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 15:28:07.146 plugin-container[83688:1286323] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 15:28:07.151 plugin-container[83688:1286323] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 15:28:07.151 plugin-container[83688:1286323] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 15:28:07.151 plugin-container[83688:1286329] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 15:28:07.151 plugin-container[83688:1286329] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668094437490	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668094784280	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668094791111	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668095122196	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668095129092	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668095472695	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668095826636	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668096177222	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668096883346	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668096890480	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668097241289	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668097585747	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668097592783	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668097943980	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668097951203	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668099133706	geckodriver	INFO	Listening on 127.0.0.1:49388
+1668099134113	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49389" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6j/g3h167pd5yq6sg2g3br58cgw0000gn/T/rust_mozprofile1AJQZT"
+2022-11-10 17:52:14.588 plugin-container[90957:1376510] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 17:52:14.588 plugin-container[90957:1376510] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 17:52:14.593 plugin-container[90957:1376510] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 17:52:14.593 plugin-container[90957:1376510] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 17:52:14.593 plugin-container[90957:1376508] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 17:52:14.593 plugin-container[90957:1376508] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668099134600	Marionette	INFO	Marionette enabled
+1668099134634	Marionette	INFO	Listening on port 49394
+Read port: 49394
+WebDriver BiDi listening on ws://127.0.0.1:49389
+1668099134930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/6j/g3h167pd5yq6sg2g3br58cgw0000gn/T/rust_mozprofile1AJQZT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49389/devtools/browser/5d4e355a-c316-4b95-917c-7e59b8e42616
+1668099138014	Marionette	INFO	Stopped listening on port 59869
+1668099140055	Marionette	INFO	Stopped listening on port 60331
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+2022-11-10 16:52:36.987 plugin-container[91023:1377604] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 16:52:36.987 plugin-container[91023:1377604] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 16:52:36.991 plugin-container[91023:1377604] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 16:52:36.991 plugin-container[91023:1377604] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 16:52:36.992 plugin-container[91023:1377609] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 16:52:36.992 plugin-container[91023:1377609] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668099512457	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1668099872362	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1668100223269	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1668100574597	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1668101195232	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1668101266468	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668101273611	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668103050129	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1668104433112	Marionette	INFO	Stopped listening on port 49394
