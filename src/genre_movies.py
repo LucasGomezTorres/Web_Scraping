@@ -41,9 +41,11 @@ def genre_movies_extraction(session,genre_name, genre_url, headers):
             movie_title_raw = movie_id_title_year[1].split('(')
             movie_title = str(movie_title_raw[0])
             # Get movie year
-            if len(movie_title_raw) > 1:
-                    movie_year = str(movie_title_raw[-1])[:4]
-            else: movie_year = "NA"
+            try:
+                movie_year = movie_info.find("span", 
+                        {"class": "lister-item-year text-muted unbold"}).get_text().split('(')[-1][:4]
+            except: 
+                movie_year = "NA"
         else: movie_title = "NA"  
         
         # Get movie duration
@@ -51,6 +53,12 @@ def genre_movies_extraction(session,genre_name, genre_url, headers):
         if raw_movie_duration!= None:
             movie_duration = raw_movie_duration.get_text().replace("\n", "")
         else: movie_duration = "NA"
+
+        # Get genres movie
+        raw_movie_genres = movie_info.find("span", {"class": "genre"})
+        if raw_movie_genres!= None:
+            movie_genres = raw_movie_genres.get_text().replace("\n", "").strip()
+        else: movie_genres = "NA"
 
         # Get movie rating
         raw_movie_rating = movie_info.find("div", {"class": "inline-block ratings-imdb-rating"})
@@ -92,6 +100,7 @@ def genre_movies_extraction(session,genre_name, genre_url, headers):
             'Movie Title': movie_title,
             'Movie Year': movie_year,
             'Movie Duration': movie_duration,
+            'Movie Genres': movie_genres,
             'Movie Rating': movie_rating,
             'Movie Description': movie_description,
             'Movie Stars': movie_stars,
