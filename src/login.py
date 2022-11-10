@@ -5,9 +5,11 @@ Authors:
     Lucas Gómez, Joan Amengual
 """
 
+import time
 import requests
 from selenium.webdriver import Firefox
 from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.common.by import By
 
 def login(url_login, data_login, headers):
     """
@@ -50,10 +52,11 @@ def login(url_login, data_login, headers):
     # The same cookies are given to the requests session and the browser to have the 2 sessions open
     for cookie in driver.get_cookies():
         session.cookies.set(cookie['name'], cookie['value'])
-    
-    # Close the browser
-    driver.quit()
 
-    return session
+    # Fill in email, password and click, and we log in
+    driver.find_element(By.ID,"ap_email").send_keys(data_login['email'])
+    time.sleep(3)
+    driver.find_element(By.ID,"ap_password").send_keys(data_login['password'])
+    driver.find_element(By.ID,"signInSubmit").click()
 
-
+    return session, driver

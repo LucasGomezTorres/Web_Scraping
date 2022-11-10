@@ -66,6 +66,12 @@ def genre_movies_extraction(session,genre_name, genre_url, headers):
             movie_rating = raw_movie_rating.get_text().replace("\n", "")
         else: movie_rating = "NA"
 
+        # Get my own movie rating
+        raw_our_own_movie_rating = movie_info.find("span", {"class": "rating-rating rating-your"})
+        if raw_our_own_movie_rating!= None:
+            our_own_movie_rating = raw_our_own_movie_rating.get_text().replace("\n", "")
+        else: our_own_movie_rating = "NA"
+
         # Get movie description
         raw_movie_description = movie_info.find_all("p", {"class": "text-muted"})
         if raw_movie_description!= None:
@@ -102,6 +108,7 @@ def genre_movies_extraction(session,genre_name, genre_url, headers):
             'Movie Duration': movie_duration,
             'Movie Genres': movie_genres,
             'Movie Rating': movie_rating,
+            'Our Rating': our_own_movie_rating,
             'Movie Description': movie_description,
             'Movie Stars': movie_stars,
             'Movie Votes': movie_votes,
