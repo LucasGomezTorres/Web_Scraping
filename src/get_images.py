@@ -13,14 +13,8 @@ import re
 import pandas as pd
 import os
 import urllib.parse
-#!pip install webdriver-manager
 import chromedriver_binary 
 from bs4 import BeautifulSoup
-# from selenium.webdriver import Firefox
-# from webdriver_manager.firefox import GeckoDriverManager
-# from selenium.common.exceptions import NoSuchElementException
-# from selenium.common.exceptions import ElementClickInterceptedException
-# from selenium.webdriver.common.by import By
 from tqdm import tqdm
 from urllib.parse import urlparse
 
