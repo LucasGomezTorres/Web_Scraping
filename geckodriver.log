@@ -2119,6 +2119,7 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 2022-11-10 12:31:49.917 plugin-container[71704:1097894] nil host used in call to allowsSpecificHTTPSCertificateForHost
 2022-11-10 12:31:49.917 plugin-container[71704:1097894] nil host used in call to allowsAnyHTTPSCertificateForHost:
 1668083516784	Marionette	INFO	Stopped listening on port 54593
+<<<<<<< HEAD
 1668086924356	geckodriver	INFO	Listening on 127.0.0.1:51244
 1668086924537	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51245" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileMnqJQv"
 2022-11-10 14:28:45.029 plugin-container[64040:1757298] nil host used in call to allowsSpecificHTTPSCertificateForHost
@@ -2550,3 +2551,38 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 JavaScript error: , line 0: uncaught exception: null
 JavaScript error: , line 0: uncaught exception: null
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+=======
+1668084324055	geckodriver	INFO	Listening on 127.0.0.1:55268
+1668084324446	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55269" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6j/g3h167pd5yq6sg2g3br58cgw0000gn/T/rust_mozprofileMIFL7a"
+2022-11-10 13:45:25.020 plugin-container[73221:1116118] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 13:45:25.021 plugin-container[73221:1116118] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668084325033	Marionette	INFO	Marionette enabled
+1668084325071	Marionette	INFO	Listening on port 55274
+2022-11-10 13:45:25.079 plugin-container[73221:1116118] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 13:45:25.079 plugin-container[73221:1116118] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 13:45:25.079 plugin-container[73221:1116116] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 13:45:25.079 plugin-container[73221:1116116] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 55274
+WebDriver BiDi listening on ws://127.0.0.1:55269
+1668084325364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/6j/g3h167pd5yq6sg2g3br58cgw0000gn/T/rust_mozprofileMIFL7a/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55269/devtools/browser/f43b81f1-30a0-4abd-9707-2501ef2b615f
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71jLD+iVN-L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+2022-11-10 12:45:46.208 plugin-container[73253:1116725] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 12:45:46.208 plugin-container[73253:1116725] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 12:45:46.218 plugin-container[73253:1116725] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 12:45:46.218 plugin-container[73253:1116725] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-10 12:45:46.219 plugin-container[73253:1116730] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-10 12:45:46.219 plugin-container[73253:1116730] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668084694370	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1668085042266	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1668085392759	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1668085743824	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1668092949846	Marionette	INFO	Stopped listening on port 50736
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+>>>>>>> a941232a3790ad9347c5b7341620c5e56a5327a7
