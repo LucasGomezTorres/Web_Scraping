@@ -71,13 +71,13 @@ def main():
     data_to_csv={}
     # Data structure to display the CSV correctly
     for _genre in movies_genre.keys():
-        keys_dict = movies_genre[_genre].keys()
-        for _id in keys_dict:
+         keys_dict = movies_genre[_genre].keys()
+         for _id in keys_dict:
             data_dict = movies_genre[_genre][_id]
             for _key in data_dict:
-                if data_to_csv.get(_key) is None:
-                    data_to_csv[_key] = []
-                data_to_csv[_key].append(str(data_dict[_key]))
+                 if data_to_csv.get(_key) is None:
+                     data_to_csv[_key] = []
+                 data_to_csv[_key].append(str(data_dict[_key]))
 
     # Path to store final CSV
     p = Path(os.path.realpath(__file__))

@@ -2586,3 +2586,76 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 >>>>>>> a941232a3790ad9347c5b7341620c5e56a5327a7
+1668616531772	geckodriver	INFO	Listening on 127.0.0.1:49550
+1668616531969	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49551" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileKft3MR"
+1668616532539	Marionette	INFO	Marionette enabled
+2022-11-16 17:35:32.606 plugin-container[9708:110362] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-16 17:35:32.606 plugin-container[9708:110362] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668616532680	Marionette	INFO	Listening on port 49558
+Read port: 49558
+2022-11-16 17:35:32.720 plugin-container[9708:110362] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-16 17:35:32.720 plugin-container[9708:110362] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-16 17:35:32.720 plugin-container[9708:110364] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-16 17:35:32.720 plugin-container[9708:110364] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:49551
+1668616532807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileKft3MR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49551/devtools/browser/d344ca3a-63fa-4bb6-aa19-77ebabb9554c
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/819PzLyzJVL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1668616956872	geckodriver	INFO	Listening on 127.0.0.1:49650
+1668616957062	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49651" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileWHBuHP"
+2022-11-16 17:42:37.631 plugin-container[9867:116308] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-16 17:42:37.632 plugin-container[9867:116308] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-16 17:42:37.638 plugin-container[9867:116308] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-16 17:42:37.638 plugin-container[9867:116308] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-16 17:42:37.640 plugin-container[9867:116312] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-16 17:42:37.640 plugin-container[9867:116312] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668616957678	Marionette	INFO	Marionette enabled
+1668616957829	Marionette	INFO	Listening on port 49660
+Read port: 49660
+WebDriver BiDi listening on ws://127.0.0.1:49651
+1668616957969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofileWHBuHP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49651/devtools/browser/ea8a2f3e-32d5-4647-b32d-648897e61e20
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/819PzLyzJVL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1668719557991	geckodriver	INFO	Listening on 127.0.0.1:50158
+1668719558165	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50159" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofile7gyhx0"
+1668719558824	Marionette	INFO	Marionette enabled
+2022-11-17 22:12:38.910 plugin-container[12511:519714] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-17 22:12:38.911 plugin-container[12511:519714] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-17 22:12:38.916 plugin-container[12511:519714] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-17 22:12:38.916 plugin-container[12511:519714] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-17 22:12:38.917 plugin-container[12511:519735] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-17 22:12:38.917 plugin-container[12511:519735] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668719558973	Marionette	INFO	Listening on port 50166
+Read port: 50166
+WebDriver BiDi listening on ws://127.0.0.1:50159
+1668719559110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_h/lw6vm6js40v053j5mjqh7fcw0000gn/T/rust_mozprofile7gyhx0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50159/devtools/browser/8ede8b37-d416-4a1b-87dd-1efbd26ae6cf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.imdb.com."
+1668719566797	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/819PzLyzJVL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668719574453	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
