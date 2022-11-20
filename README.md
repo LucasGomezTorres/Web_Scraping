@@ -24,13 +24,13 @@ Comandos a ejecutar:
 
 ## Descripción de archivos que componen el repositorio
 
-- genres_extraction: se lleva a cabo la extracción de los nombres géneros y sus respectivas URLs. 
+- genres_extraction: se lleva a cabo la extracción de los nombres de los géneros y sus respectivas URLs. 
 
 - genre_movies: se realiza la extracción de las distintas características de las películas.
 
 - get_images: se encarga de realizar toda la lógica necesaria para descargar los carteles de las películas.
 
-- get_videos: se encarga de realizar toda la lógica necesaria para descargar los trailers de las películas.
+- get_videos: se encarga de realizar toda la lógica necesaria para descargar los tráilers de las películas.
 
 - login: archivo que realiza un login a través de un usuario y una contraseña y se devuelven dos sesiones, una mediante la librería requests y la otra mediante Selenium a través del navegador Firefox.
 
