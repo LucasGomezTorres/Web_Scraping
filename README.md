@@ -34,9 +34,13 @@ Comandos a ejecutar:
 
 - login: archivo que realiza un login a través de un usuario y una contraseña y se devuelven dos sesiones, una mediante la librería requests y la otra mediante Selenium a través del navegador Firefox.
 
+- login_docker: archivo que realiza un login a través de un usuario y una contraseña y se devuelven dos sesiones, una mediante la librería requests y la otra mediante Selenium a través del navegador Chrome; únicamente para su ejecución a través de contenedor Docker.
+
 - review_movie: se realiza una valoración personal interactuando dinámicamente con el navegador una vez logeados dentro de la página web.
 
 - main: fichero principal del proyecto, el cuál hay que ejecutar para llevar a cabo la extracción de los datos y su posterior creación del dataset en formato .CSV.
+
+- main_docker: fichero principal del proyecto para su ejecución a través de contenedor Docker, el cuál hay que ejecutar para llevar a cabo la extracción de los datos y su posterior creación del dataset en formato .CSV.
 
 ## DOI de Zenodo del dataset generado
 
@@ -54,6 +58,9 @@ Artículos necesarios para su instalación:
 
 ## Ejecución del proyecto mediante Docker
 
+Comandos a ejecutar: 
+
+- git clone https://github.com/LucasGomezTorres/Web_Scraping.git
 - cd Web_Scraping
 - bash exe.sh
 

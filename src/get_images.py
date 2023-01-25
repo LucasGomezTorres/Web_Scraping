@@ -29,7 +29,7 @@ def get_image_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True):
         - movie_info: text of the movie in html format
         - movie_id: unique id of each movie
         - genre_name: name identifying the genre of the movie
-        - headers: information for modifying the user-agent
+        - headers: information to modify the user-agent
     """
 
     # URL imdb to get the absolute path of the images
@@ -45,20 +45,24 @@ def get_image_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True):
     response = requests.get(abs_url_photo, headers=headers)
     soup = BeautifulSoup(response.text, features="html.parser")
 
-    # Get url movie for download the image 
-    image_poster = soup.find("div", {"class": "ipc-media ipc-media--poster-27x40 ipc-image-media-ratio--poster-27x40 ipc-media--baseAlt ipc-media--poster-l ipc-poster__poster-image ipc-media__img"})
-    for image_poster_content in image_poster:
-        url_image = image_poster_content.get("srcset").split(',')[0]
+    # Get url movie to download the image
+    try: 
+        image_poster = soup.find("div", {"class": "ipc-media ipc-media--poster-27x40 ipc-image-media-ratio--poster-27x40 ipc-media--baseAlt ipc-media--poster-l ipc-poster__poster-image ipc-media__img"})
+        for image_poster_content in image_poster:
+            url_image = image_poster_content.get("srcset").split(',')[0]
 
-    # Return only the access URL
-    if only_url:
-        return url_image
-    else:
-        # Get the image of film and save to images_film folder 
-        image_data = requests.get(url_image,headers=headers).content
-        with open('src/images_films/'+genre_name+'_'+str(movie_id)+'.jpg', 'wb') as handler:
-            handler.write(image_data)
-            print("download image"+str(movie_id))
-            return '/images_films/'+genre_name+'_'+str(movie_id)+'.jpg'
+        # Return only the access URL
+        if only_url:
+            return url_image
+        else:
+            # Get the image of film and save to images_film folder 
+            image_data = requests.get(url_image,headers=headers).content
+            with open('src/images_films/'+genre_name+'_'+str(movie_id)+'.jpg', 'wb') as handler:
+                handler.write(image_data)
+                print("download image"+str(movie_id))
+                return '/images_films/'+genre_name+'_'+str(movie_id)+'.jpg'
 
-
+    except KeyError as e:
+        url_video_download = 'NA'
+    except TypeError as e:
+        url_video_download = 'NA'

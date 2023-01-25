@@ -25,7 +25,7 @@ def get_video_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True):
         - movie_info: text of the movie in html format
         - movie_id: unique id of each movie
         - genre_name: name identifying the genre of the movie
-        - headers: information for modifying the user-agent
+        - headers: information to modify the user-agent
     """
 
     # URL imdb to get the absolute path of the images
@@ -41,11 +41,11 @@ def get_video_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True):
     response = requests.get(abs_url_video, headers=headers)
     soup = BeautifulSoup(response.text, features="html.parser")
 
-    # Get url movie for download the video 
+    # Get url movie to download the video 
     soup_video = soup.find_all("a",class_="ipc-lockup-overlay ipc-focusable")
     url_video = [i.get("href") for i in soup_video].pop(1)
 
-    # Get the absolute url for download the video
+    # Get the absolute url to download the video
     abs_url_video = urllib.parse.urljoin(imdb_url,url_video) 
     #print(abs_url_video + "id" + str(movie_id))
 
@@ -67,7 +67,7 @@ def get_video_movie(soup,movie_info,movie_id,genre_name,headers,only_url=True):
     except AttributeError as e:
         json_data =  None
 
-    # Get url movie for download the image 
+    # Get url movie to download the image 
     try:
         url_video_download = json_data['props']['pageProps']['videoPlaybackData']['video']['playbackURLs'][1]['url']
     except KeyError as e:
