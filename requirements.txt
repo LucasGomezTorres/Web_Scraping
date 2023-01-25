@@ -1,5 +1,6 @@
 regex==2022.1.18
 pandas==1.0.4
+numpy==1.23
 requests==2.25.1
 bs4==0.0.1
 chromedriver_binary==108.0.5359.22.0
